@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 200px;
   padding: 14px;
-  background-color: #fff;
+  background-color: $card-color;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   font-weight: 400;
@@ -15,8 +15,8 @@
     height: 150px;
     padding: 16px 4px 0;
     margin-bottom: 40px;
-    border: 3px solid #fff;
-    transition: transform 400ms;
+    border: 3px solid $card-color;
+    transition: transform $transition-speed;
 
     &:hover {
       border: 3px solid #f3f3f3;
@@ -81,6 +81,6 @@
     border: 1px solid #00acdc;
     color: #00acdc;
     background-color: #fff;
-    transition-duration: 400ms;
+    transition-duration: $transition-speed;
   }
 }
