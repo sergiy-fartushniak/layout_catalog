@@ -13,6 +13,11 @@
     width: 160px;
     height: 134px;
     margin: 16px 3px 40px;
+    &:hover {
+      border: 3px solid #f3f3f3;
+      transform: scale(1.2);
+      transition-duration: 400ms;
+    }
   }
 
   &__name {
@@ -72,5 +77,6 @@
     border: 1px solid #00acdc;
     color: #00acdc;
     background-color: #fff;
+    transition-duration: 400ms;
   }
 }
